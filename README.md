@@ -17,7 +17,7 @@ Configurare con un editor(vim) sul file di configurazione per modificare i compo
  PermitRootLogin no
  AllowUsers ebeta
 ```
-![sdadsad](C:\Users\23130\OneDrive\Desktop\centos\centos\os.PNG)
+![sdadsad](os.PNG)
 
 
 
