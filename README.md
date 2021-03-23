@@ -1,7 +1,7 @@
 # Centos 7 - Lampp
 Guida rapida all'installazione dei principali servizi per la messa in opera di un sistema di hosting di base:
 - Http(+ php)
-- MariaDB( + phpmyadmin)
+- MYsql( + phpmyadmin)
 - FTP
 
 ## Informazione sistema:
@@ -44,10 +44,6 @@ installazione e avvio del servizio http
 Controllo lo stato del servizio
 ![statusphpmyadmin](img/statusHTTP.PNG)
 
-Servizio
-
-![phpmyadmin](img/configPhpMyAdmin.PNG)
-
 
 Configurare il firewall per permettere l'accesso alla porta di default di HTTP(80/tcp) e caricamento delle impostazioni
 ```
@@ -61,3 +57,39 @@ Testing il servizio via web
 ![testingWeb](img/checkHTTP.PNG)
 
 
+## Installazione il servizion di Mysql
+Comando per scaricare RPM
+```
+sudo rpm -ivh mysql57-community-release-el7-9.noarch.rpm
+```
+
+
+installazione mysql server
+```
+sudo yum install mysql-server
+
+```
+
+l'avvio e status del servizio mysql
+
+```
+ sudo systemctl start mysqld
+ sudo systemctl status mysqld
+  
+```
+
+![OS](img/statusMySQL.PNG)
+
+Versione mysql
+
+![OS](img/versionMySQL.PNG)
+
+
+## installazione servizio phpmyadmin
+
+```
+  sudo yum -y install phpmyadmin
+  
+```
+
+![configPhpmyadmin](img/configPhpMyAdmin.PNG)
