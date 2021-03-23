@@ -44,8 +44,19 @@ installazione e avvio del servizio http
 Controllo lo stato del servizio
 ![statusphpmyadmin](img/statusHTTP.PNG)
 
-Versione
+
 ![phpmyadmin](img/configPhpMyAdmin.PNG)
+
+Configurare il firewall per permettere l'accesso alla porta di default di HTTP(80/tcp) e caricamento delle impostazioni
+```
+  firewall-cmd --permanent --add-port=80/tcp
+  firewall-cmd --reload
+  
+```
+
+Testing il servizio via web
+
+![testingWeb](img/checkHTTP.PNG)
 
 
 
