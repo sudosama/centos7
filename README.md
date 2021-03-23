@@ -6,37 +6,28 @@ Guida rapida all'installazione dei principali servizi per la messa in opera di u
 
 ## Informazione sistema:
 ![OS](os.PNG)
+
+## Informazione rete:
+![OS](rete.PNG)
 ## Installazione servizi ssh: 
 I comandi per installare il servizio ssh su Centos7
 ```
   yum install sshd
   systemctl start sshd
   systemctl enable sshd
+  
 ```
 ## Privileggi ssh:
-Configurare con un editor(vim) sul file di configurazione per modificare i comportamenti di default
+Configurare con un editor(vim) sul file di configurazione per modificare i comportamenti di default, togliendo hashtag davanti
 ```
-
+ Port //change port default
+ 
  PermitRootLogin no
  AllowUsers ebeta
 ```
 ![SSH](configSSH.PNG)
 
 
-
-- [AngularJS] - HTML enhanced for web apps!
-- [Ace Editor] - awesome web-based text editor
-- [markdown-it] - Markdown parser done right. Fast and easy to extend.
-- [Twitter Bootstrap] - great UI boilerplate for modern web apps
-- [node.js] - evented I/O for the backend
-- [Express] - fast node.js network app framework [@tjholowaychuk]
-- [Gulp] - the streaming build system
-- [Breakdance](https://breakdance.github.io/breakdance/) - HTML
-to Markdown converter
-- [jQuery] - duh
-
-And of course Dillinger itself is open source with a [public repository][dill]
- on GitHub.
 
 ## Installation
 
