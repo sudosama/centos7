@@ -3,6 +3,9 @@ Guida rapida all'installazione dei principali servizi per la messa in opera di u
 - Http(+ php)
 - MariaDB( + phpmyadmin)
 - FTP
+
+## Informazione sistema:
+![OS](os.PNG)
 ## Installazione servizi ssh: 
 I comandi per installare il servizio ssh su Centos7
 ```
@@ -17,7 +20,7 @@ Configurare con un editor(vim) sul file di configurazione per modificare i compo
  PermitRootLogin no
  AllowUsers ebeta
 ```
-![sdadsad](os.PNG)
+![SSH](configSSH.PNG)
 
 
 
