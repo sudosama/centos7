@@ -82,14 +82,47 @@ l'avvio e status del servizio mysql
 
 Versione mysql
 
-![OS](img/versionMySQL.PNG)
+![versionmysql](img/versionMySQL.PNG)
 
-
-## installazione servizio phpmyadmin
+## installazione servizio php
 
 ```
   sudo yum -y install phpmyadmin
   
 ```
 
+## installazione servizio phpmyadmin
+
+```
+  yum install php
+  systemctl restart httpd
+  php -v
+  
+```
+
+Per testare il funzionamento di php creare un file `info.php`, nella ***DocumentRoot***, contenente il codice seguente
+```
+  <HTML>
+    <HEAD></HEAD>
+    <BODY>
+      <?php phpinfo(); ?>
+    </BODY>
+  </HTML>
+```
+![phpinfo](img/infoPHP.PNG)
+
+File di configurazione di phpmyadmin
+
 ![configPhpmyadmin](img/configPhpMyAdmin.PNG)
+
+Testing servizio phpmyadmin via web
+
+![checkphpmyadmin](img/checkPhpMyAdmin.PNG)
+
+
+
+
+
+
+
+
