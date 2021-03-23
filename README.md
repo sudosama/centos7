@@ -44,8 +44,10 @@ installazione e avvio del servizio http
 Controllo lo stato del servizio
 ![statusphpmyadmin](img/statusHTTP.PNG)
 
+Servizio
 
 ![phpmyadmin](img/configPhpMyAdmin.PNG)
+
 
 Configurare il firewall per permettere l'accesso alla porta di default di HTTP(80/tcp) e caricamento delle impostazioni
 ```
@@ -59,13 +61,3 @@ Testing il servizio via web
 ![testingWeb](img/checkHTTP.PNG)
 
 
-
-
-
-
-   [PlDb]: <https://github.com/joemccann/dillinger/tree/master/plugins/dropbox/README.md>
-   [PlGh]: <https://github.com/joemccann/dillinger/tree/master/plugins/github/README.md>
-   [PlGd]: <https://github.com/joemccann/dillinger/tree/master/plugins/googledrive/README.md>
-   [PlOd]: <https://github.com/joemccann/dillinger/tree/master/plugins/onedrive/README.md>
-   [PlMe]: <https://github.com/joemccann/dillinger/tree/master/plugins/medium/README.md>
-   [PlGa]: <https://github.com/RahulHP/dillinger/blob/master/plugins/googleanalytics/README.md>
