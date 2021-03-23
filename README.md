@@ -84,12 +84,7 @@ Versione mysql
 
 ![versionmysql](img/versionMySQL.PNG)
 
-## installazione servizio php
 
-```
-  sudo yum -y install phpmyadmin
-  
-```
 
 ## installazione servizio phpmyadmin
 
@@ -97,6 +92,21 @@ Versione mysql
   yum install php
   systemctl restart httpd
   php -v
+  
+```
+File di configurazione di phpmyadmin
+
+![configPhpmyadmin](img/configPhpMyAdmin.PNG)
+
+Testing servizio phpmyadmin via web
+
+![checkphpmyadmin](img/checkPhpMyAdmin.PNG)
+
+
+## installazione servizio php
+
+```
+  sudo yum -y install phpmyadmin
   
 ```
 
@@ -111,13 +121,6 @@ Per testare il funzionamento di php creare un file `info.php`, nella ***Document
 ```
 ![phpinfo](img/infoPHP.PNG)
 
-File di configurazione di phpmyadmin
-
-![configPhpmyadmin](img/configPhpMyAdmin.PNG)
-
-Testing servizio phpmyadmin via web
-
-![checkphpmyadmin](img/checkPhpMyAdmin.PNG)
 
 
 
