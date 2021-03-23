@@ -5,10 +5,10 @@ Guida rapida all'installazione dei principali servizi per la messa in opera di u
 - FTP
 
 ## Informazione sistema:
-![OS](os.PNG)
+![OS](img/os.PNG)
 
 ## Informazione rete:
-![OS](rete.PNG)
+![OS](img/rete.PNG)
 ## Installazione servizi ssh: 
 I comandi per installare il servizio ssh su Centos7
 ```
@@ -25,7 +25,7 @@ Configurare con un editor(vim) sul file di configurazione per modificare i compo
  PermitRootLogin no
  AllowUsers ebeta
 ```
-![SSH](configSSH.PNG)
+![SSH](img/configSSH.PNG)
 
 
 
