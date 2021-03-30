@@ -122,6 +122,37 @@ Per testare il funzionamento di php creare un file `info.php`, nella ***Document
 ![phpinfo](img/infoPHP.PNG)
 
 
+## installazione servizio ftp
+
+```
+  install vsftpd
+  
+```
+
+Modificare i privileggi nel percorso etc/vsftpd/vsftpd.conf
+
+```
+  anonymous_enable=NO
+  
+```
+Abilita l'accesso agli utenti del server locali
+
+```
+ local_enable=YES
+ 
+```
+
+Restartare i servizi
+```
+ systemctl enable vsftpd
+ 
+```
+Testing 
+![ftp](https://user-images.githubusercontent.com/77326001/112944931-dc480880-9133-11eb-86a8-47c8f1200442.jpeg)
+
+
+
+
 
 
 
